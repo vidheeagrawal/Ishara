@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ishaara - Online Ordering</title>
+  <style>
+    /* CSS styling for the website */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    h1 {
+      font-size: 36px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 16px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+    th {
+      text-align: left;
+      background-color: #f2f2f2;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      cursor: pointer;
+    }
+    .map {
+      width: 100%;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ishaara</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#order">Order Now</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      
+        <p>Welcome to our restaurant!</p>
+        <p>At our restaurant, we are dedicated to providing our customers with a memorable dining experience. Our mission is to serve delicious, high-quality food prepared with fresh ingredients and a dash of passion.</p>
+        <p>We take pride in our warm, ensuring that every visit is comfortable and enjoyable. Our friendly and attentive staff is always ready to assist you and make your dining experience exceptional.</p>
+        <p>Thank you for choosing our restaurant. We look forward to serving you and making your time with us unforgettable.</p>
+      
+      
+    </section>
+
+    <section id="menu">
+      <h2>Menu</h2>
+      <table>
+        <tr>
+          <th>Items</th>
+          <th>Description</th>
+          <th>Price(INR)</th>
+        </tr>
+        <tr>
+          <td>Pizza</td>
+          <td>Delicious pizza with various toppings</td>
+          <td>250</td>
+        </tr>
+        <tr>
+          <td>Burger</td>
+          <td>Classic veg burger with cheese and vegetables</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>Pasta</td>
+          <td>Spaghetti with tomato sauce</td>
+          <td>320</td>
+        </tr>
+      </table>
+
+<h3>Drinks</h3>
+     <table>
+        <tr>
+    <th>Drinks</th>
+      <th>Description</th>
+  <th>Price(INR)</th>
+        
+        </tr>     
+          <tr>
+        <td>Mango <br>
+            Lassi</td>
+        <td>Refreshing drink blended with ripe mangoes</td>
+        <td>100</td>
+          </tr>
+          <tr> 
+       <td>Chai</td>
+       <td>Traditional Indian spiced tea served with milk</td>
+    <td>80</td>
+          </tr>
+    
+        </table>
+      
+        <h3>Desserts</h3>
+        <table>
+          <tr>
+            <th>Dessert</th>
+            <th>Description</th>
+            <th>Price(INR)</th>
+          </tr>
+          <tr>
+            <td>Kheer</td>
+      <td>Traditional rice pudding with cardamom and nuts</td>
+      <td>100</td>
+          </tr>
+          <tr>
+            <td>Falooda</td>
+            <td>Milkshake with vermicelli, basil seeds, and ice cream</td>
+            <td>150</td>
+          </tr>
+          
+        </table>
+      </section>
+
+      <section id="order" class="tab-content">
+        <h2>Order Now</h2>
+        <form>
+          <label for="customer-name">Customer Name:</label>
+          <input type="text" id="customer-name" name="customer-name" required>
+      
+          <label for="address">Address:</label>
+          <textarea id="address" name="address" rows="2" required></textarea>
+      
+          <label for="menu-items">Menu Items:</label>
+          <textarea id="menu-items" name="menu-items" rows="2" required></textarea>
+      
+          <input type="submit" value="Place Order">
+        </form>
+      </section>
+      
+      <section id="contact" class="tab-content">
+        <h2>Contact</h2>
+      
+        <div>
+          <h4>Contact Information</h3>
+          <p>Address: 123 Main Street, Mumbai, Maharashtra</p>
+          <p>Phone: 91-9595360352</p>
+          <p>Email: managers@ishaara.com</p>
+        </div>
+    </section>
